@@ -36,5 +36,3 @@ Route::get('/topic/add', [TopicController::class, 'topic_add']);
 //post controller
 Route::get('/post', [PostController::class, 'post_all']);
 Route::get('/post/add', [PostController::class, 'post_add']);
-
-
